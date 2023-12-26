@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello , this is trial program of JAVA-SCRIPT.</h1>
+    <h3 id="trial"> JAVA-SCRIPT program</h3>
+    <script>
+        function java() {
+            var m = document.getElementById("trial")
+            if (m.style.display === "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block"
+            }
+        }
+    </script>
+    <button onclick="java()"> click here!</button>
+</body>
+
+</html>
